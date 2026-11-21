@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>InCpEction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="login">
+        <div class="brand hero">
+            <img class="hlogo" src="logo.png" alt="InCpEction logo">
+            <h1>In<b>CpE</b>ction</h1>
+            <div class="pulse"></div>
+            <p class="tag"><i>Monitor.</i> <i>Secure.</i> <i>Innovate.</i></p>
+            <div class="feats">
+                <div><span>🌡</span>Real-Time<br>Monitoring</div>
+                <div><span>🔒</span>Advanced<br>Security</div>
+                <div><span>📡</span>RFID Access<br>Tracking</div>
+            </div>
+        </div>
+        <div class="glass lcard">
+            <h2 style="text-align:center;font-size:30px;margin-bottom:6px">Welcome <b class="bl">Back</b>!</h2>
+            <p class="sub" style="text-align:center">Sign in to access the laboratory monitoring system.</p>
+            <div class="fld"><span>👤</span><input id="lu" placeholder="Username" autocomplete="username"></div>
+            <div class="fld"><span>🔒</span><input id="lp" type="password" placeholder="Password"
+                    autocomplete="current-password"><button class="eye" id="eye" type="button"
+                    aria-label="Show or hide password">👁</button></div>
+            <div class="err" id="lerr"></div><button class="btn lgo" id="lgo">Log In <span>&rarr;</span></button>
+            <p class="secure"><i></i>Secure Access<i></i></p>
+            <div class="shield">🛡</div>
+        </div>
+    </div>
+    <div id="app" class="hid">
+        <aside id="side">
+            <div class="brand"><img class="slogo" src="logo.png" alt="">
+                <h1>In<b>CpE</b>ction</h1>
+            </div>
+            <nav id="nav"></nav>
+        </aside>
+        <div class="mainw">
+            <div class="top"><button class="btn g s mb" id="burger">☰ Menu</button><span class="chip off" id="conn">●
+                    Device Offline</span><button class="btn g s" id="bell">🔔 <span id="bc">0</span></button><span>👤
+                    Administrator</span></div>
+            <main id="main"></main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
